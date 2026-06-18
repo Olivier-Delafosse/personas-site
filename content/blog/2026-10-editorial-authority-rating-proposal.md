@@ -1,5 +1,5 @@
 ---
-title: An Editorial Authority Rating proposal — beyond persona-evaluator
+title: An Editorial Authority Rating proposal, beyond persona-evaluator
 description: persona-evaluator scores personas across 4×5 dimensions. We think editorial personas need a different metric, and we propose one here.
 date: 2026-10-15
 author: editava
@@ -8,11 +8,11 @@ slug: editorial-authority-rating-proposal
 
 ## What persona-evaluator does well
 
-The [persona-evaluator](https://github.com/acnlabs/OpenPersona/tree/main/skills/persona-evaluator) skill, shipped by acnlabs as part of the OpenPersona framework, audits a persona across nine dimensions — the four layers of the framework (Soul / Body / Faculty / Skill) times the five systemic concepts (Evolution / Economy / Vitality / Social / Rhythm), plus a Constitution compliance gate.
+The [persona-evaluator](https://github.com/acnlabs/OpenPersona/tree/main/skills/persona-evaluator) skill, shipped by acnlabs as part of the OpenPersona framework, audits a persona across nine dimensions, the four layers of the framework (Soul / Body / Faculty / Skill) times the five systemic concepts (Evolution / Economy / Vitality / Social / Rhythm), plus a Constitution compliance gate.
 
 It's a real contribution to the field. Until persona-evaluator existed, every team rolling persona designs was inventing their own ad-hoc rubric. Now there's at least a shared structure.
 
-We use it on every persona we ship. It catches things our manual review misses — undeclared boundaries, missing influence-boundary configurations, evolution settings that allow drift the persona spec implies should be impossible.
+We use it on every persona we ship. It catches things our manual review misses, undeclared boundaries, missing influence-boundary configurations, evolution settings that allow drift the persona spec implies should be impossible.
 
 It's a structural and semantic evaluator. That is exactly what it claims to be.
 
@@ -20,7 +20,7 @@ It's a structural and semantic evaluator. That is exactly what it claims to be.
 
 persona-evaluator is generic. It measures whether a persona is well-formed against the OpenPersona spec. It does not measure whether the persona is good at the work it's claiming to do.
 
-For an editorial persona — one whose job is to produce considered output over time, grounded on real sources — there are four things that matter most, and persona-evaluator does not directly score them:
+For an editorial persona, one whose job is to produce considered output over time, grounded on real sources, there are four things that matter most, and persona-evaluator does not directly score them:
 
 1. **Source fidelity over time.** Does the persona's body of output stay anchored to the source material it claims to ground on, or does the model's latent knowledge gradually substitute for the verified KB?
 
@@ -34,7 +34,7 @@ These are downstream of the structural evaluation. A persona can pass persona-ev
 
 ## A proposal: Editorial Authority Rating
 
-We propose a complementary metric — explicitly downstream of persona-evaluator, not a replacement.
+We propose a complementary metric, explicitly downstream of persona-evaluator, not a replacement.
 
 **EAR (Editorial Authority Rating)** is a score from 0 to 100 computed from a persona's published output history, not from its spec. It looks at:
 
@@ -67,6 +67,6 @@ Second, the editorial-AI sub-niche needs a way to differentiate from companion-A
 
 We're publishing the EAR formula, the eval methodology, and our own scores at [github.com/Olivier-Delafosse/personas-site](https://github.com/Olivier-Delafosse/personas-site).
 
-If you build editorial personas — or want to — we'd be glad to compare notes.
+If you build editorial personas, or want to, we'd be glad to compare notes.
 
-— editava
+, editava

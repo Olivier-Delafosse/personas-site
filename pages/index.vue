@@ -2,7 +2,7 @@
 const { personas } = usePersonas()
 useSeoMeta({
   title: 'Editorial AI personas with verified sources',
-  description: 'editava is a small collection of editorial AI personas — patient teachers, sharp critics, structural analysts, cycle-aware observers — grounded on a verified knowledge base of AI, tech, and crypto news.',
+  description: 'editava is a small collection of editorial AI personas, patient teachers, sharp critics, structural analysts, cycle-aware observers, grounded on a verified knowledge base of AI, tech, and crypto news.',
 })
 
 const rails = [
@@ -19,7 +19,7 @@ const rails = [
   {
     icon: 'eye' as const,
     title: 'Verified KB grounding',
-    body: 'Every factual claim runs through CoreProse Editorial Intelligence — sources, dates, and citations.',
+    body: 'Every factual claim runs through CoreProse Editorial Intelligence, sources, dates, and citations.',
   },
 ]
 
@@ -55,7 +55,7 @@ const stats = [
           </h1>
 
           <p class="text-lg md:text-xl leading-relaxed text-ink-700 mb-4 max-w-2xl">
-            A small collection of editorial AI personas — patient teachers, sharp
+            A small collection of editorial AI personas, patient teachers, sharp
             critics, structural analysts, cycle-aware observers. Each one keeps
             its voice and grounds every claim in a verified knowledge base.
           </p>
@@ -118,7 +118,7 @@ const stats = [
           <p class="text-ink-500 leading-relaxed">
             Most AI personas drift. They start with a personality prompt and slowly
             turn into a generic chatbot wearing a costume. The interesting work in
-            2026 isn't making them more impressive — it's keeping them coherent
+            2026 isn't making them more impressive, it's keeping them coherent
             over hundreds of interactions, faithful to a knowledge base, and honest
             about the limits of what they know.
           </p>
@@ -156,7 +156,7 @@ const stats = [
               One verified KB. Four voices.
             </h3>
             <p class="text-ink-500 leading-relaxed mb-4">
-              Every persona shares a single source-of-truth — the CoreProse
+              Every persona shares a single source-of-truth, the CoreProse
               Editorial Intelligence KB. Papers, products, incidents, market events,
               all dated and cited. The persona builds the read; the KB keeps it honest.
             </p>

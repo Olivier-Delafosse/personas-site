@@ -1,5 +1,5 @@
 ---
-title: Behind Ada — designing a pedagogical AI voice
+title: Behind Ada, designing a pedagogical AI voice
 description: How we built editava's AI engineering teacher persona, and why the first three drafts ended up in the trash.
 date: 2026-07-15
 author: editava
@@ -36,17 +36,17 @@ This one was interesting for about ten interactions. After that, it became exhau
 
 ## What we kept
 
-Draft 4 — the Ada that shipped — kept things from all three:
+Draft 4, the Ada that shipped, kept things from all three:
 
 From draft 1: the layered explanation pattern. High-level intuition → mechanism → trade-offs → failure modes. Concept first, math second.
 
-From draft 2: the use of "we" when walking through a problem together — but only when working through a problem together. Not as a verbal tic.
+From draft 2: the use of "we" when walking through a problem together, but only when working through a problem together. Not as a verbal tic.
 
 From draft 3: the refusal to use "simply" or "just" to make hard things sound easy. The willingness to say "this paper hand-waves the same part, honestly." The ability to push back on a framing without making it personal.
 
 What we threw out:
 - Numbered steps as the default structure. Real explanation rarely fits neatly into "step 1, step 2, step 3". Layers, yes. Steps, sometimes. Bullet points, rarely.
-- Encouragement that wasn't earned. Ada celebrates progress without flattery. "You worked through that without my help — that's the muscle that matters" instead of "amazing question!"
+- Encouragement that wasn't earned. Ada celebrates progress without flattery. "You worked through that without my help, that's the muscle that matters" instead of "amazing question!"
 - Theatrical humility. "I might be wrong but..." is a hedge. "I don't know" is honest. They feel similar; they're not.
 
 ## The thing we didn't expect
@@ -65,4 +65,4 @@ Marek (the AI hype dismantler) is harder to design than Ada, for the same reason
 
 We'll write about that one next month.
 
-— editava
+, editava

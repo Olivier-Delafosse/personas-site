@@ -62,7 +62,7 @@ const year = new Date().getFullYear()
           </div>
           <p class="text-sm text-ink-500 max-w-sm leading-relaxed mb-4">
             An editorial AI personas studio. Patient teachers, sharp critics,
-            structural analysts, cycle-aware observers — all grounded on a verified
+            structural analysts, cycle-aware observers, all grounded on a verified
             knowledge base.
           </p>
           <div class="flex items-center gap-3">

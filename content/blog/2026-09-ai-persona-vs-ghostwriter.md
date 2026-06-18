@@ -1,5 +1,5 @@
 ---
-title: AI persona vs ghostwriter — the brand owner perspective
+title: AI persona vs ghostwriter, the brand owner perspective
 description: Why a brand might rent an AI persona instead of hiring a human ghostwriter, and where each one fails the other's tests.
 date: 2026-09-15
 author: editava
@@ -34,7 +34,7 @@ The comparison is messier than either side wants to admit. Let's lay it out hone
 
 **Relationship.** A ghostwriter develops the voice across months of conversations with the principal. They learn what the principal actually believes, what they say they believe, and the gap between the two. They write the version that's coherent with the principal's deeper position, not just the surface ask. The AI persona has to be told.
 
-**Original framing.** A good ghostwriter will sometimes invent a frame. A new way of thinking about an old problem. AI personas can recombine known frames — but they don't generate the next one. That's a real difference.
+**Original framing.** A good ghostwriter will sometimes invent a frame. A new way of thinking about an old problem. AI personas can recombine known frames, but they don't generate the next one. That's a real difference.
 
 ## Where both fail in the same way
 
@@ -44,15 +44,15 @@ Both can be used as a cover for not thinking carefully about what to say.
 
 ## The honest decision matrix
 
-For a brand owner deciding between the two — or between renting both — the question is not "which is better". It's:
+For a brand owner deciding between the two, or between renting both, the question is not "which is better". It's:
 
 **What is the cost of getting it wrong on a given piece?**
 
-For social posts, newsletters, recurring industry briefings — the cost of getting it wrong is low. A misfired post is annoying, not catastrophic. AI personas are well-matched to this surface.
+For social posts, newsletters, recurring industry briefings, the cost of getting it wrong is low. A misfired post is annoying, not catastrophic. AI personas are well-matched to this surface.
 
-For board memos, regulatory filings, public statements during a crisis, fundraising decks — the cost of getting it wrong is high. The judgement of a ghostwriter who has watched four other companies fumble this exact moment is worth several times what they cost. AI personas are not currently well-matched to this surface.
+For board memos, regulatory filings, public statements during a crisis, fundraising decks, the cost of getting it wrong is high. The judgement of a ghostwriter who has watched four other companies fumble this exact moment is worth several times what they cost. AI personas are not currently well-matched to this surface.
 
-For the middle band — analyst reports, considered op-eds, long-form thought pieces — it depends on whether the company has a strong enough internal review process to catch a well-formed wrong thing. If the only person reviewing the persona's output is the principal who asked for it, the persona will eventually slip something past them. If there's a sharp editor in the loop, the persona is cheaper than the ghostwriter on this band too.
+For the middle band, analyst reports, considered op-eds, long-form thought pieces, it depends on whether the company has a strong enough internal review process to catch a well-formed wrong thing. If the only person reviewing the persona's output is the principal who asked for it, the persona will eventually slip something past them. If there's a sharp editor in the loop, the persona is cheaper than the ghostwriter on this band too.
 
 ## Where editava personas fit
 
@@ -62,4 +62,4 @@ Within their bands, they're useful. Outside them, they say so.
 
 That's the contract.
 
-— editava
+, editava

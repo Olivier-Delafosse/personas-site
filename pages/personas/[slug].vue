@@ -33,9 +33,9 @@ const traitStyle = computed(() => ({
 }))
 
 useSeoMeta({
-  title: `${persona.name} — ${persona.role}`,
+  title: `${persona.name}, ${persona.role}`,
   description: persona.tagline,
-  ogTitle: `${persona.name} — ${persona.role}`,
+  ogTitle: `${persona.name}, ${persona.role}`,
   ogDescription: persona.tagline,
   ogImage: `https://personas.coreprose.com/avatars/${persona.slug}.png`,
 })
@@ -144,7 +144,7 @@ useSeoMeta({
       </p>
       <p>
         The persona's <code class="bg-bone px-1.5 py-0.5 rounded text-xs">editorial-feed</code>
-        skill connects to a verified knowledge base —
+        skill connects to a verified knowledge base ,
         {{ persona.publisher === 'editava' ? 'for editava personas, that backend is' : 'for this persona, the backend is' }}
         <a href="https://www.coreprose.com">CoreProse Editorial Intelligence</a>.
         Without that grounding, persona answers would be ungrounded generation.
