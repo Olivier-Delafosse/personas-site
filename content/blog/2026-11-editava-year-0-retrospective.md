@@ -15,7 +15,7 @@ What we shipped:
 - **Four persona packs** on OpenPersona: Ada (AI engineering pedagogue), Marek (AI hype dismantler), Jules (tech industry pattern reader), Sven (crypto cycles).
 - **Distribution split** between two publishers: `editava` (branded, Ada + Jules) and `ed-pulse` (independent-flavor, Marek + Sven). The split was a deliberate A/B test of branding vs. anonymity.
 - **A shared backend** — the `editorial-feed` skill, which queries a verified KB of AI / tech / crypto news with sources and dates, served by [CoreProse Editorial Intelligence](https://www.coreprose.com).
-- **An open evaluation proposal** — Editorial Authority Rating, complementary to OpenPersona's persona-evaluator (cf. our [October post](/blog/editorial-authority-rating-proposal)).
+- **An open evaluation proposal** — Editorial Authority Rating, complementary to OpenPersona's persona-evaluator (cf. our [October post](/blog/2026-10-editorial-authority-rating-proposal)).
 - **This blog** — bi-monthly, six posts in six months, which is the pace we said we'd hold and the pace we held.
 
 ## What worked
@@ -28,7 +28,7 @@ What we shipped:
 
 ## What didn't work
 
-**Position coherence at scale.** We knew at the 100-interaction test (cf. [August post](/blog/editorial-fidelity-100-generations)) that the personas were drifting in their positions over time. We proposed building a **position ledger** as a fix. We did build a prototype. It works for short conversations and fails on longer ones because the ledger gets too large to inject as context. We'll write a separate post about this when we know more.
+**Position coherence at scale.** We knew at the 100-interaction test (cf. [August post](/blog/2026-08-editorial-fidelity-100-generations)) that the personas were drifting in their positions over time. We proposed building a **position ledger** as a fix. We did build a prototype. It works for short conversations and fails on longer ones because the ledger gets too large to inject as context. We'll write a separate post about this when we know more.
 
 **Distribution.** ClawHub install counts for editorial personas grew slowly. Some of that is fine — editorial-AI is a smaller niche than companion-AI or skill-AI by an order of magnitude. Some of it is because we did not invest enough in writing for the OpenClaw Discord community. The blog and the persona packs have to do their own marketing in 2026; presence in the developer communities matters as much as the artifacts themselves.
 
