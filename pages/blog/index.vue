@@ -17,30 +17,48 @@ useSeoMeta({
 
 <template>
   <section class="max-w-3xl mx-auto px-6 py-16">
-    <h1 class="font-serif text-4xl text-ink mb-4">Blog</h1>
-    <p class="text-ink-soft mb-12">
-      Notes on persona design, knowledge grounding, and what we learn building this.
-      Bi-monthly.
-    </p>
+    <div class="mb-12">
+      <span class="pill-accent mb-4">
+        <Icon name="book" class="h-3 w-3" />
+        Essays
+      </span>
+      <h1 class="font-serif text-5xl text-ink mt-3 mb-3">Field notes</h1>
+      <p class="text-ink-500 leading-relaxed max-w-2xl">
+        On persona design, knowledge grounding, and what we learn building this.
+        Bi-monthly.
+      </p>
+    </div>
 
-    <ul v-if="posts?.length" class="space-y-8">
+    <ul v-if="posts?.length" class="space-y-2">
       <li
         v-for="post in posts"
         :key="post._path"
-        class="border-b border-ink/10 pb-8 last:border-b-0"
       >
-        <NuxtLink :to="post._path" class="no-underline block group">
-          <p class="text-sm text-ink-muted mb-1">
-            {{ new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+        <NuxtLink
+          :to="post._path"
+          class="block group rounded-xl border border-ink/8 bg-white p-6 hover:shadow-soft hover:border-ink/15 transition no-underline"
+        >
+          <div class="flex items-center gap-2 mb-2 text-xs font-mono uppercase tracking-wider text-ink-400">
+            <time>{{ new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) }}</time>
+            <span class="text-ink-200">·</span>
+            <span>Essay</span>
+          </div>
+          <h2 class="font-serif text-2xl text-ink group-hover:text-accent transition-colors mb-2">
+            {{ post.title }}
+          </h2>
+          <p v-if="post.description" class="text-ink-500 leading-relaxed mb-3">
+            {{ post.description }}
           </p>
-          <h2 class="font-serif text-2xl text-ink group-hover:underline">{{ post.title }}</h2>
-          <p v-if="post.description" class="text-ink-soft mt-2">{{ post.description }}</p>
+          <span class="text-sm font-medium text-accent inline-flex items-center gap-1">
+            Read essay
+            <Icon name="arrow" class="h-3.5 w-3.5 transform transition-transform group-hover:translate-x-0.5" />
+          </span>
         </NuxtLink>
       </li>
     </ul>
 
-    <p v-else class="text-ink-muted italic">
+    <div v-else class="surface p-8 text-center text-ink-400 italic">
       No posts yet. First one drops shortly.
-    </p>
+    </div>
   </section>
 </template>
