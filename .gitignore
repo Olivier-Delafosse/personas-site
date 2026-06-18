@@ -1,0 +1,11 @@
+.nuxt
+.output
+.env
+.env.*
+!.env.example
+node_modules
+dist
+*.log
+.DS_Store
+.vscode
+.idea
