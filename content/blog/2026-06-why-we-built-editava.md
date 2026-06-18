@@ -1,7 +1,7 @@
 ---
 title: Why we built editava
 description: A small AI personas studio, scoped to editorial work, grounded on verified sources, and committed to honest disclosure.
-date: 2026-06-25
+date: 2026-06-18
 author: editava
 slug: why-we-built-editava
 ---
