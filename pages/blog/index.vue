@@ -1,6 +1,10 @@
 <script setup lang="ts">
+const today = new Date().toISOString().slice(0, 10)
 const { data: posts } = await useAsyncData('blog-index', () =>
-  queryContent('/blog').sort({ date: -1 }).find(),
+  queryContent('/blog')
+    .where({ date: { $lte: today } })
+    .sort({ date: -1 })
+    .find(),
 )
 
 useSeoMeta({

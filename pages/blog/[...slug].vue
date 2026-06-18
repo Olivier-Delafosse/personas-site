@@ -8,6 +8,13 @@ if (!post.value) {
   throw createError({ statusCode: 404, statusMessage: 'Post not found', fatal: true })
 }
 
+// Hide posts dated in the future (drafts of the editorial calendar
+// that shouldn't appear as published before their date).
+const today = new Date().toISOString().slice(0, 10)
+if (post.value.date && post.value.date > today) {
+  throw createError({ statusCode: 404, statusMessage: 'Post not yet published', fatal: true })
+}
+
 useSeoMeta({
   title: post.value.title,
   description: post.value.description,
