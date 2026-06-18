@@ -1,12 +1,20 @@
 <script setup lang="ts">
-const route = useRoute()
-const slug = route.params.slug as string
-const { getBySlug } = usePersonas()
-const persona = getBySlug(slug)
+import { isPersonaSlug } from '~/types/persona'
 
-if (!persona) {
-  throw createError({ statusCode: 404, statusMessage: 'Persona not found', fatal: true })
+const route = useRoute()
+const slugParam = route.params.slug
+const slug = Array.isArray(slugParam) ? slugParam[0] : slugParam
+
+if (!slug || !isPersonaSlug(slug)) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Persona not found',
+    fatal: true,
+  })
 }
+
+const { getBySlugStrict } = usePersonas()
+const persona = getBySlugStrict(slug)
 
 useSeoMeta({
   title: `${persona.name} — ${persona.role}`,
@@ -18,7 +26,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <article v-if="persona" class="max-w-3xl mx-auto px-6 py-16">
+  <article class="max-w-3xl mx-auto px-6 py-16">
     <NuxtLink to="/" class="text-sm no-underline text-ink-muted hover:underline">
       ← All personas
     </NuxtLink>

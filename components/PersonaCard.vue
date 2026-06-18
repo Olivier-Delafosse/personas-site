@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Persona } from '~/composables/usePersonas'
+import type { Persona } from '~/types/persona'
 
 defineProps<{ persona: Persona }>()
 </script>
